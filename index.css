@@ -1,0 +1,369 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.cabecalho{
+    background-color: black;
+    height: 60px;
+    padding: 20px 240px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+li{
+    display: inline;
+    padding-right: 5px;
+    padding-left: 5px;
+    color:white;
+}
+.cabecalho a{
+    text-decoration: none;
+    color:white;
+}
+.cabecalho:hover a{
+    color: white;
+}
+.cabecalho{
+    display:inline-block;
+
+}
+.caixa {  
+    background-color:whitesmoke;
+    border:solid 2px lightgray;
+    border-radius:10px;
+    width:300px;
+    height:35px; 
+}
+.pesquisa{
+    float:left;
+    background-color:transparent;
+    padding-left:13px;
+    font-size:18px;
+    border: none;
+    height:32px;
+    width:210px;
+    border-radius:7px 0 0 7px;
+}
+.navNey{
+    display: inline-block;
+    position: absolute;
+    top:17px;
+}
+.navPesquisa form{
+    margin-right: 320px;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top:12px;
+}
+
+.caixa button {
+    float:right;
+    border: none;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:85px;
+    font-weight:bold;
+    background:lightgray;
+}
+
+.foto-ney img{
+    width: 110%;
+    height:220px;
+}
+.parte1{
+    margin-top: 100px;
+    padding: 0px 240px;
+    margin-bottom: 30px;
+    background-color: white;
+}
+.texto{
+    margin-left: 30px;
+}
+.social img{
+    width: 30px;
+
+}
+.social .redes{
+    display: block;
+}
+.social{
+    padding-top:40px;
+
+}
+
+.todosProjetos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projetosNey img{
+    width: 100%;
+
+}
+.projetosNey p{
+    text-align:center;
+}
+.section2{
+    background-color: whitesmoke;
+    margin-top: 100px;
+    padding: 0 240px;
+
+}
+
+.imagemNey img{
+    width:100%;
+}
+.neymarExp{
+    margin-top: -30px !important;
+    padding: 20px 0;
+}
+.experiencia{
+    padding: 0px 240px;
+    background-color: black;
+}
+.textoExp{
+    text-align: justify;
+    color:white;
+}
+.fotoNeymar3{
+    margin-bottom: 20px;
+}
+.experiencia h3{
+    margin-bottom: 30px;
+    color:white;
+}
+.experiencia hr{
+    color: white;
+}
+
+.conquistas{
+    padding: 0 240px;
+    background-color: whitesmoke;
+}
+.conquistas img{
+    width:30%;
+    height: 150px;
+    border-radius: 100%;
+}
+.textoConq{
+    margin-left: 142px;
+    text-align: justify;
+    margin-top: -20px;
+    color:black;
+}
+.conquistas strong{
+    color:black;
+}
+.conquistas h4{
+    margin: 50px 0;
+    color:black;
+}
+.botaomais{
+    float:right;
+    margin-bottom: 30px;
+}
+.rowConq{
+    margin-bottom: 30px;
+}
+.rowvideos{
+    padding: 0 240px;
+    margin: 0 0;
+    background-color: black;
+}
+.rowvideos h4{
+    color:white;
+}
+.rowvideos hr{
+    color: white;
+}
+div.videos{
+    margin-bottom: 15px;
+    position: relative;
+    padding-bottom: 57%;
+}
+
+div.videos > iframe{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.infovideos p{
+    text-align: justify;
+    color:white;
+}
+.rowpe{
+    height: 90px;
+    padding: 20px 240px;
+    background-color: lightgray;
+}
+.rodapelogo img{
+    margin-top: -45px;
+    width: 40px;
+    float: right !important;
+}
+.rodapepuc{
+    margin-top: 15px;
+
+}
+.containervideos h4{
+    margin-top:30px;
+}
+
+
+@media screen and (min-width:320px) and (max-width: 480px){
+body{
+    overflow-x: hidden;
+}
+.cabecalho{
+    height: 50px;
+    font-size: 12px;
+    padding: 0 4.86vw;
+}
+.navPesquisa{
+    display:none;
+}
+.parte1{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.parte1 .foto-ney{
+    padding: 0 4.86vw;
+}
+.section2{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.experiencia{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.conquistas{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.rowvideos{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.rowpe{
+    padding: 0 4.86vw;
+    display: inline;
+}
+.rowpe img{
+    display:none;
+}
+
+}
+@media screen and (min-width: 481px) and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .cabecalho{
+        height: 50px;
+    font-size: 18px;
+    padding: 0 24px;   
+    }
+    .navNey{
+        display:none;
+    }
+    
+    
+    .parte1{
+        padding: 0 4.86vw;
+    }
+    .parte1 .foto-ney{
+        padding: 0 24px;
+        width:100%;
+    }
+    .section2{
+        padding: 0 24px;
+        width:100%;
+    }
+    .experiencia{
+        padding: 0 24px;
+        width:100%;
+    }
+    .conquistas{
+        padding: 0 24px;
+        width:100%;
+        display:inline;
+    }
+    .textoConq{
+        margin-left: 160px;
+        text-align: justify;
+        margin-top: -18px;
+    }
+    .rowvideos{
+        padding: 0 24px;
+        width:100%;
+    }
+    .rowpe{
+        padding: 0 24px;
+        width:100%;
+    }
+    .rowpe img{
+        display:none;
+        width:100%;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width:1200){
+    body{
+        overflow-x: hidden;
+        width:100%;
+    }
+    .cabecalho{
+        height: 50px;
+    font-size: 18px;
+    padding: 0 24px;   
+    }
+    .navNey{
+        display:none;
+    }
+    
+    
+    .parte1{
+        padding: 0 4.86vw;
+    }
+    .parte1 .foto-ney{
+        padding: 0 24px;
+        width:100%;
+    }
+    .section2{
+        padding: 0 24px;
+        width:100%;
+    }
+    .experiencia{
+        padding: 0 24px;
+        width:100%;
+    }
+    .conquistas{
+        padding: 0 24px;
+        width:100%;
+        display:inline;
+    }
+    .textoConq{
+        margin-left: 160px;
+        text-align: justify;
+        margin-top: -18px;
+    }
+    .rowvideos{
+        padding: 0 24px;
+        width:100%;
+    }
+    .rowpe{
+        padding: 0 24px;
+        width:100%;
+    }
+    .rowpe img{
+        display:none;
+        width:100%;
+    }
+}
